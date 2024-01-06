@@ -1,0 +1,474 @@
+
+.div1{
+    color: black;
+}
+.bigImage{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(50.06deg, black 5%, rgba(0,0,0,0.0001) 85.74%), url("../public/Images/big.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+}
+
+.logo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/Images/logo.png");
+    height: 180px;
+    width: 280px;
+}
+
+.textbox1{
+    font-size: 25px;
+}
+
+.textbox2{
+    font-size: 30px;
+    font-weight:500;
+}
+
+p{
+    color: grey;
+}
+
+.text-pink{
+    color: var(--primary);
+}
+
+.content-onImage-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #fff;
+
+}
+.content-onImage-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-btn{
+    color: white;
+    background: transparent;
+    border: 0;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.login-btn:hover{
+    text-shadow: 5px 5px 10px black;
+}
+
+.content-onImage-btn-text{
+    color: #fff;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three-images{
+    margin: 15px 0;
+    padding: 25px 0;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.image-one,.image-two,.image-three{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.icon1{
+    background-image: url("../public/Images/revenue.png");
+}
+.icon2{
+    background-image: url("../public/Images/customer.png");
+}
+.icon3{
+    background-image: url("../public/Images/brand.png");
+}
+
+.icon1,.icon2,.icon3{
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.image-with-text{
+    text-align: center;
+    width: 150px;
+}
+.easy-steps{
+    padding: 2% 0;
+    background-color: var(--primary-pink);
+}
+.three-steps{
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.headline-text{
+    padding: 0 10%;
+    font-size: 36px;
+    font-weight: bold;
+}
+.step-text{
+    font-size: 28px;
+    font-weight: 500;
+}
+.mini-text{
+    margin-top: 5px;
+    width: 200px;
+}
+.stepicons{
+    color: rgb(184, 18, 18);
+}
+
+.review-box{
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.review-text{
+    width: 430px;
+}
+.huge-text{
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.icontext{
+    display: flex;
+    align-items: center;
+}
+
+.icon-text{
+    padding: 10px;
+    font-weight: 500;
+}
+.icon-review{
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../public/Images/review-icon.png");
+}
+
+.review-image{
+    height: 250px;
+    width: 350px;
+    background-image: url("../public/Images/review-girl.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.phone-image{
+    display: none;
+    height: 390px;
+    width: 390px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.track-img{
+    background-image: url("../public/Images/phone.png");
+}
+.rating-img{
+    background-image: url("../public/Images/phone-rating.png");
+}
+.daily-img{
+    background-image: url("../public/Images/daily.png");
+}
+.assist-img{
+    background-image: url("../public/Images/assist.png");
+}
+
+.services{
+    margin: 2% 0;
+    padding: 2%;
+}
+.service1-image1{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service1:hover{
+    align-items: center;
+}
+
+.service1:hover + .phone-image{
+    display: block;
+}
+
+.headline-service{
+    padding: 0 10%;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.head-service-txt{
+    font-size: large;
+    font-weight: 500;
+}
+.service-text{
+    font-size: small;
+}
+
+.four-service{
+    padding: 0 10%;
+}
+
+.text_and_btn{
+    padding: 0 8%;
+    display: block;
+
+}
+.txt{
+    border-width: 3px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.imgtxt-box{
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img1-text1{
+    width: 45%;
+    display: flex;
+    background-color: var(--primary-pink);
+    align-items: center;
+}
+
+.bg-img{
+    height: 160px;
+    width: 330px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quality{
+    background-image: url("../public/Images/quality.png");
+}
+
+.growth{
+    background-image: url("../public/Images/growth.png");
+}
+
+.smalltxt{
+    padding: 0 13px;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.bgtxt{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding: 0 18px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.question-box{
+    padding: 2% 10%;
+}
+
+.question-headline{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.all-question{
+    padding: 3% 3%;
+}
+
+.q1{
+    padding: 2%;
+    font-size: 16px;
+    color: #DF3429;
+    font-weight: 500;
+    border-bottom-width: 2px ;
+}
+
+.ans{
+    padding: 3%;
+    display: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+.q1:hover{
+    border-bottom-width: 0;
+    box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.16),
+    -1px -1px 6px 2px rgba(0,0,0,0.23);    
+}
+
+.q1:hover .ans{
+    display: block;
+}
+
+.btn-support{
+    color: #DF3429;
+    font-weight: 500;
+}
+
+.footer-box{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.foot-head{
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: large;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+.contact, .company{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    justify-content: flex-start;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgray;
+}
+
+.foot2{
+    border-top-width: 1px;
+    border-color: gray;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-small;
+}
+
+.foot-logo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../public/Images/logo.png");
+    height: 100px;
+    width: 130px;
+}
+
+.social-btn{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+
+@media all and (max-width:580px) {
+    .bigImage{
+        height: 950px;
+        padding: 40px;
+        background: linear-gradient(35.06deg, black 35%, rgba(0,0,0,0.0001) 99.74%), url("../public/Images/big.png");
+        background-repeat: no-repeat;
+        flex-direction: column;
+    }
+    .content-onImage-btn-text{
+        height: 190px;
+        justify-content: space-around;
+    }
+    .three-images{
+        flex-wrap: wrap;
+    }
+    .step1,.step2,.step3{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .three-steps{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mini-text{
+        width: 300px;
+    }
+    .service1:hover + .phone-image{
+        display: none;
+    }
+    .head-service-txt{
+        text-align: center;
+    }
+    .review-box{
+        flex-wrap: wrap;
+    }
+    .review-image{
+        margin: 5% 0;
+    }
+    .text_and_btn{
+        display: none;
+    }
+    .footer-box{
+        height: 300px;
+    }
+    .foot1{
+        margin-top: 5%;
+        width: 100%;
+    }
+    
+}
+
+@media all and (max-width:750px){
+    .imgtxt-box{
+        flex-direction: column;
+    }
+    .img1-text1{
+        margin-top: 5%;
+        width: 98%;
+    }
+    .foot2{
+        width: 100%;
+        font-size: medium;
+        flex-wrap: wrap;
+    }
+}
