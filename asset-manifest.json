@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cake_shop/static/css/main.f43ab376.css",
+    "main.css": "/cake_shop/static/css/main.decdd377.css",
     "main.js": "/cake_shop/static/js/main.9ef5f7b4.js",
     "static/js/787.414d94ef.chunk.js": "/cake_shop/static/js/787.414d94ef.chunk.js",
     "static/media/big.png": "/cake_shop/static/media/big.934a13492e0728a6bf2a.png",
@@ -70,12 +70,12 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/cake_shop/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/cake_shop/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/cake_shop/index.html",
-    "main.f43ab376.css.map": "/cake_shop/static/css/main.f43ab376.css.map",
+    "main.decdd377.css.map": "/cake_shop/static/css/main.decdd377.css.map",
     "main.9ef5f7b4.js.map": "/cake_shop/static/js/main.9ef5f7b4.js.map",
     "787.414d94ef.chunk.js.map": "/cake_shop/static/js/787.414d94ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f43ab376.css",
+    "static/css/main.decdd377.css",
     "static/js/main.9ef5f7b4.js"
   ]
 }
